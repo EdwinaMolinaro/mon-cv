@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CV</title>
+    <link rel="stylesheet" href="bower_components\bootstrap\dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=VT323|Zilla+Slab+Highlight" rel="stylesheet">
+
+  </head>
+  <body ng-app="myApp" ng-controller="myCtrl">
+
+
+    <h1>
+      <div class="centered">Bienvenue.</div>
+    </h1>
+
+
+
+
+      <!-- <nav>
+        <ul>
+          <li><button ng-click= "showUser(u)" ng-repeat= "u in elements">
+            {{u.about}}{{u.skill}}</li>
+          </button>
+        </ul>
+      </nav> -->
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6 blockG">
+            <h2 class="centered2">Edwina Molinaro</h2>
+          </div>
+
+          <div class="col-sm-6 blockD">
+            <h3>About me !</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="liens">
+              <img src="images/git.png" alt="">
+              <img src="images/link.png" alt="">
+              <a href="mailto:edwina.4815162342@outlook.fr"><img src="images/mail.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+     <!-- <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <button ng-click= "showUser(u)" ng-repeat= "u in elements">
+            {{u.about}}{{u.skill}}
+          </button>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div ng-show="element">
+            <div>Alios autem dicere aiunt multo etiam inhumanius (quem locum breviter paulo ante perstrinxi) praesidii adiumentique causa, non benevolentiae neque caritatis, amicitias esse expetendas; itaque, ut quisque minimum firmitatis haberet minimumque virium, ita amicitias appetere maxime; ex eo fieri ut mulierculae magis amicitiarum praesidia quaerant quam viri et inopes quam opulenti et calamitosi quam ii qui putentur beati.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <script src="bower_components\jquery\dist\jquery.min.js" charset="utf-8"></script>
+    <script src="bower_components\angular\angular.min.js" charset="utf-8"></script>
+
+    <script src="js/app.js" charset="utf-8"></script>
+  </body>
+</html>

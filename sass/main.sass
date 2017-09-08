@@ -1,0 +1,113 @@
+@import "variable"
+
+
+/////////////////////////////HEADER////////////////////////////
+
+body
+  margin: 0
+  padding: 0
+
+
+h1
+  text-align: center
+  height: 100vh
+  margin: 0
+  background-image: url("https://cdn.pixabay.com/photo/2017/06/26/08/13/mockup-2443050_960_720.jpg")
+  background-size: cover
+  background-attachment: fixed
+  font-family: 'Amatic SC', cursive
+  font-size: 120px
+  color: black
+  div
+    animation-name: clignote
+    animation-duration: 2s
+    animation-iteration-count: infinite
+
+@keyframes clignote
+  from, to
+    opacity: 1
+  50%
+    opacity: 0
+
+.centered
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(45%, -50%)
+
+
+/////////////////////////////NAVBAR////////////////////////////
+
+nav
+  background-color: black
+  ul
+    li
+      list-style: none
+      display: inline-block
+
+
+[class*="col-"]
+  padding-left: 0
+  padding-right: 0
+
+.blockG
+  // background-color: #999966
+  height: 100vh
+  background-color: #222
+  text-shadow: 2px 2px 2px white
+
+h2
+  font-family: 'Amatic SC', cursive
+  font-size: 100px
+  animation-name: rotate
+  animation-duration: 2s
+  animation-iteration-count: infinite
+
+.centered2
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(10%, -50%)
+
+@keyframes rotate
+  from, 5%
+    color: #333333
+  10%, 15%
+    color: #eeeeee
+  20%, 25%
+    color: pink
+  30%, 35%
+    color: cyan
+  40%, 45%
+    color: gold
+  50%, 55%
+    color: magenta
+  60%, 65%
+    color: blue
+  70%, 65%
+    color: indigo
+  80%,85%
+    color: yellow
+  90%,95%
+    color: red
+
+
+
+.blockD
+  background-color: #eeeeee
+  height: 100vh
+  h3
+    font-size: 80px
+    font-family: 'VT323', monospace
+    text-align: center
+    margin-top: 5%
+  p
+    font-family: 'Amatic SC', cursive
+    font-size: 25px
+    margin-top: 5%
+
+.liens
+  img
+    width: 150px
+    margin-top: 20%
+    margin-left: 10%
