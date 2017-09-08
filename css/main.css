@@ -6,7 +6,7 @@ h1 {
   text-align: center;
   height: 100vh;
   margin: 0;
-  background-image: url("https://cdn.pixabay.com/photo/2017/06/26/08/13/mockup-2443050_960_720.jpg");
+  background-image: url("../images/computer.jpg");
   background-size: cover;
   background-attachment: fixed;
   font-family: "Amatic SC", cursive;
