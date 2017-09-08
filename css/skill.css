@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+[class*="col-"] {
+  padding-left: 0;
+  padding-right: 0; }
+
+.block-top {
+  background-color: #eeeeee;
+  height: 200px;
+  border-bottom: 1px solid #222; }
+  .block-top h3 {
+    font-family: "VT323", monospace;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 5%; }
+
+.block-center-g {
+  background-color: #999966; }
+  .block-center-g h4 {
+    font-family: "Amatic SC", cursive;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5%;
+    animation-name: font;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; }
+  .block-center-g img {
+    width: 180px;
+    margin-top: 10%;
+    margin-left: 5%; }
+
+@keyframes font {
+  from, to {
+    opacity: 1; }
+  50% {
+    font-weight: bold; } }
+.block-center-d {
+  background-color: #999966; }
+  .block-center-d h4 {
+    font-family: "Amatic SC", cursive;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5%;
+    animation-name: font;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; }
+  .block-center-d img {
+    width: 200px;
+    margin-top: 10%;
+    margin-left: 5%; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap; }
+
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column; }
+
+/*# sourceMappingURL=skill.css.map */

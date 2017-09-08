@@ -49,6 +49,8 @@ h2 {
   animation-name: rotate;
   animation-duration: 2s;
   animation-iteration-count: infinite; }
+  h2:hover {
+    cursor: pointer; }
 
 .centered2 {
   position: absolute;
@@ -79,7 +81,9 @@ h2 {
     color: red; } }
 .blockD {
   background-color: #eeeeee;
-  height: 100vh; }
+  height: 100vh;
+  border-bottom: 1px solid #222;
+  border-top: 1px solid #222; }
   .blockD h3 {
     font-size: 80px;
     font-family: "VT323", monospace;
